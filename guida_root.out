@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduzione ed informazioni generali utili}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Come interfacciarsi}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Istogrammi}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Inizializzare e riempire un'istogramma}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Inserire dati da file}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Metodi utili istogrammi}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Operazioni fra istogrammi}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Grafici}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Costruttore di TGraph}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Costruttore di TGraphErrors}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Metodi per grafici}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Legenda}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Variabili globali}{}% 13
+\BOOKMARK [1][-]{section.5}{Funzioni di ROOT}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{Inizializzazione e funzioni utili}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Fitting}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{Disegnare oggetti}{}% 17
+\BOOKMARK [2][-]{subsection.6.1}{Canvas}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.2}{Draw\(\)}{section.6}% 19
+\BOOKMARK [1][-]{section.7}{Generazione di Montecarlo}{}% 20
+\BOOKMARK [1][-]{appendix.Alph1}{Opzioni di Draw}{}% 21
