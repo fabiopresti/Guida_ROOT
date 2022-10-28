@@ -27,7 +27,7 @@ dottedtoc % Dotted lines leading to the page numbers in the table of contents
 \section{Introduzione ed informazioni generali utili}
 ROOT è un linguaggio ad oggetti sviluppato dal CERN basato su C++ utile per l'analisi ed elaborazione di grandi moli di dati. Ogni istogramma, grafico, funzione (...) che creiamo è un oggetto con delle sue opzioni e funzioni (funzioni membro). Una proprietà fondamentale è l'ereditarietà: tutte le classi sono figlie di una classe di base (TObject) da cui discendono le altre; ogni classe figlia eredita le funzioni membro di quelle precedenti. Il tipo degli oggetti comincia sempre con la lettera T, seguita da altre lettere che specificano le caratteristiche dell'oggetto. Di seguito riporto alcune informazioni di base in ordine casuale:
 \begin{itemize}
-\item I tipi base di ROOT hanno nomi leggermente diversi da quelli di c++: \(Int\_t\), \(Float\_t\), \(Double\_t\).\\
+\item I tipi base di ROOT hanno nomi leggermente diversi da quelli di c++: \(Int\_t\), \(Float\_t\), \(Double\_t\), TString...\\
 \item Per stampare a schermo basta usare i comandi di C++. Ad esempio:\\\\
 Double\_t a;\\
 cout<< "Scritta" << a;\\
@@ -41,7 +41,7 @@ nome\_oggetto -> Write();\\
 nome -> Close();\\
 \item Per accedere a file di dati (che dovrà essere nella stessa cartella della macro) si usa la funzione di C++ fstream(); in ordine bisogna creare un oggetto file, aprire quello desiderato, accedervi e chiuderlo. In ordine:\\\\
  fstream nome;\\
- nome.open("nome\_file.txt")\\
+ nome.open("nome\_file.txt");\\
  nome >> x;\\
  nome.close();\\\\
 \end{itemize}
@@ -59,7 +59,7 @@ oppure carichiamo le funzioni della macro in memoria con il comando\\\\
 .L name.C\\\\
 per poi chiamare le funzioni singolarmente, ad esempio:\\\\
 funz1();\\\\
-IMPORTANTE: LE MACROS DEVONO STARE NELLA CARTELLA "HOME\$/ROOT/macros"
+IMPORTANTE: LE MACROS DEVONO STARE NELLA CARTELLA "HOME\$/root/macros"
 \item \textbf{Finestra grafica (GUI)}\\
 Per curare l'estetica dei grafici è possibile sfruttare l'interfaccia grafica, più intuitiva. Per far comparire le opzioni della finestra bisogna cliccare su "view" e spuntare "editor", "toolbar" ed "event statusbar". 
 \end{itemize}
@@ -85,8 +85,8 @@ che crea un'istogramma già riempito.\\
 \subsection{Inserire dati da file}
 \'{E} possibile riempire un'istogramma sfruttando i dati di un file di testo (che dovrà essere nella stessa cartella della macro). Innanzitutto bisogna costruire l'oggetto file\\\\
 fstream nome;\\\\
-poi bisogna aprire il file desiderato\\
-nome.open("nome\_file.txt")\\
+poi bisogna aprire il file desiderato\\\\
+nome.open("nome\_file.txt")\\\\
 infine con un ciclo aggiungiamo i dati del file fin quando questo non finisce:\\\\
 Float\_t x;\\
 while(1)\{\\
@@ -142,13 +142,13 @@ Si possono usare metodi dedicati della classe per effettuare operazioni tra ogge
 \begin{enumerate}
 	\item Creare e riempire gli istogrammi con cui operare
 	\item Creare l'istogramma risultato, inizialmente vuoto, passando come parametro il primo istogramma con cui si vole operare. Per la divisione:\\\\
-	TH1F *hRatio = new TH1F(*h1);\\
-	hRatio->Divide(h1,h2,1,1);\\\\
+	TH1F *nome\_divisione = new TH1F(*h1);\\
+	nome\_divisione -> Divide(h1,h2,1,1);\\\\
 	Per la somma:\\\\
-	TH1F *hSum=new TH1F(*h1);\\
-	hSum->Add(h1,h2,1,1);\\\\
+	TH1F *nome\_somma =new TH1F(*h1);\\
+	nome\_somma -> Add(h1,h2,1,1);\\\\
 	Per la sottrazione si usa la stessa sintassi dell'addizione ma con un "-1" al posto del secondo "1". Infine, per avere incertezze corrette sugli istogrammi risultato, è necessario usare il metodo Sumw2():\\\\
-	nome\_isto\_risultato -> Sumw2();\\\\
+	nome\_risultato -> Sumw2();\\\\
 \end{enumerate}
 \section{Grafici}
 Un grafico rappresenta una serie di N coppie di due variabili (x, y). Esistono due tipi di grafici: quello semplice TGraph e quello in cui è possibile includere anche gli errori nel grafico TGraphErrors. 
@@ -202,13 +202,7 @@ Di seguito i principali metodi dei grafici
 	effettua un fit a partire da una funzione precedentemente definita
 \end{itemize}
 (kOpenCirclee kBlue sono codici predefiniti in ROOT, li ho messi per esempio)
-\subsection{Legenda}
-La legenda è un oggetto a se stante (TLegend) che deve essere disegnato sulla canvas. Un esempio è:\\\\
-TLegend *nome = new TLegend(.1,.7,.3,.9,“Titolo");\\
-nome -> AddEntry(oggetto1, "label1");\\
-nome -> AddEntry(oggetto2, “label2");\\
-nome -> Draw("SAME");\\\\
-dove i numeri nella dichiarazione di TLegend sono parametri per le dimensioni del rettangolo della legenda; AddEntry aggiunge alla legenda oggetti (quindi non solo istogrammi o grafici ma anche numeri, ad esempio il Chiquadro). 
+
 \section{Variabili globali}
 I puntatori globali puntano ad informazioni generali sul file in uso sono principalmente 4:
 \begin{itemize}
@@ -332,6 +326,13 @@ Se si specifica il range è possibile fittare utilizzando più funzioni per i di
 	nome\_isto -> Fit(total, "R")\\
 	\item Estrarre risultati finali dai metodi delle funzioni fit già visti.
 \end{enumerate}
+\section{Legenda}
+La legenda è un oggetto a se stante (TLegend) che deve essere disegnato sulla canvas. Un esempio è:\\\\
+TLegend *nome = new TLegend(.1,.7,.3,.9,“Titolo");\\
+nome -> AddEntry(oggetto1, "label1");\\
+nome -> AddEntry(oggetto2, “label2");\\
+nome -> Draw("SAME");\\\\
+dove i numeri nella dichiarazione di TLegend sono parametri per le dimensioni del rettangolo della legenda; AddEntry aggiunge alla legenda oggetti (quindi non solo istogrammi o grafici ma anche numeri, ad esempio il Chiquadro). 
 \section{Disegnare oggetti}
 \subsection{Canvas}
 Per prima cosa bisogna creare una "canvas" che è l'ambiente in cui è possibile disegnare gli oggetti. Un modo base per inizializzarla è\\\\
@@ -355,12 +356,18 @@ I generatori di numeri casuali (PRNG) sono di fondamentale importanza in fisica 
 Un PRNG può seguire una qualsiasi p.d.f.; in ROOT è possibile generare numeri casuali che seguono p.d.f. built-in ROOT o user-defined. Alcuni esempi di p.d.f. built-in ROOT sono: 
 \begin{itemize}
 	\item Uniform(x1, x2)
+	vuole la x iniziale e finale fra cui generare
 	\item Gaus(media, sigma)
+	vuole media e deviazione standard
 	\item Poisson(media)
+	vuole la media
 	\item Binomial(ntot, prob)
+	vuole il numero totale di elementi e la probabilità che avvenga l'evento binario.
 	\item Exp(tau)
-	\item Integr(imax)
+	vuole il coefficiente che sta all'esponente
+	\item Integr(imax)	
 	\item Landau(moda, sigma)
+	vuole moda e deviazione standard
 \end{itemize}
 Un esempio di generazione casuale apartire da una built-in, utilizzando il metodo gRandom è:\\\\
 Double\_t x = gRandom -> Uniform(xmin, xmax);\\\\
@@ -370,21 +377,44 @@ doubler = nome\_funz -> GetRandom();\\\\
 \\\'{E} anche possibile riempire direttamente un'istogramma di entrate casuali con il metodo FillRandom():\\\\
  nome\_isto -> FillRandom(“funzione”, num\_entrate);\\\\
 dove "funzione può essere sa user-defined che built-in.
+\newpage
 \appendix
 \section{Opzioni di Draw}\label{sec:Draw}
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"Screenshot 2022-06-04 221503"}
+	\includegraphics[width=0.7\linewidth]{"Screenshot 2022-06-04 221503"}
 \end{figure}
 \FloatBarrier
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"Screenshot 2022-06-04 222020"}
+	\includegraphics[width=0.7\linewidth]{"Screenshot 2022-06-04 222020"}
 \end{figure}
 \FloatBarrier
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"Screenshot 2022-06-04 222115"}
+	\includegraphics[width=0.7\linewidth]{"Screenshot 2022-06-04 222115"}
 \end{figure}
+\FloatBarrier
+\newpage
+\section{Esempi}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{"Screenshot 2022-06-06 212045"}
+	\caption{Programma che verifica che una binomiale tende ad una gaussiana usando la generazione di Montecarlo.}
+	\label{fig:screenshot-2022-06-06-212045}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{"Screenshot 2022-06-06 212607"}
+	\caption{Programma che effettua il plot di dati con errore su una delle due misure usando TGraphErrors.}
+	\label{fig:screenshot-2022-06-06-212607}
+\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.8\linewidth]{"Screenshot 2022-06-06 212449"}
+	\caption{Programma che crea due istogrammi con i tempi di caduta del pendolo di Maxwell prendendo dati da un file esterno usando ifstream.}
+	\label{fig:screenshot-2022-06-06-212449}
+\end{figure}
+
 \FloatBarrier
 \end{document}

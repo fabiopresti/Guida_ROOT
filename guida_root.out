@@ -9,13 +9,14 @@
 \BOOKMARK [2][-]{subsection.3.1}{Costruttore di TGraph}{section.3}% 9
 \BOOKMARK [2][-]{subsection.3.2}{Costruttore di TGraphErrors}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.3}{Metodi per grafici}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.4}{Legenda}{section.3}% 12
-\BOOKMARK [1][-]{section.4}{Variabili globali}{}% 13
-\BOOKMARK [1][-]{section.5}{Funzioni di ROOT}{}% 14
-\BOOKMARK [2][-]{subsection.5.1}{Inizializzazione e funzioni utili}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.2}{Fitting}{section.5}% 16
-\BOOKMARK [1][-]{section.6}{Disegnare oggetti}{}% 17
-\BOOKMARK [2][-]{subsection.6.1}{Canvas}{section.6}% 18
-\BOOKMARK [2][-]{subsection.6.2}{Draw\(\)}{section.6}% 19
-\BOOKMARK [1][-]{section.7}{Generazione di Montecarlo}{}% 20
+\BOOKMARK [1][-]{section.4}{Variabili globali}{}% 12
+\BOOKMARK [1][-]{section.5}{Funzioni di ROOT}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Inizializzazione e funzioni utili}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{Fitting}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Legenda}{}% 16
+\BOOKMARK [1][-]{section.7}{Disegnare oggetti}{}% 17
+\BOOKMARK [2][-]{subsection.7.1}{Canvas}{section.7}% 18
+\BOOKMARK [2][-]{subsection.7.2}{Draw\(\)}{section.7}% 19
+\BOOKMARK [1][-]{section.8}{Generazione di Montecarlo}{}% 20
 \BOOKMARK [1][-]{appendix.Alph1}{Opzioni di Draw}{}% 21
+\BOOKMARK [1][-]{appendix.Alph2}{Esempi}{}% 22
