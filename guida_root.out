@@ -1,22 +1,31 @@
 \BOOKMARK [1][-]{section.1}{Introduzione ed informazioni generali utili}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Come interfacciarsi}{section.1}% 2
-\BOOKMARK [1][-]{section.2}{Istogrammi}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{Inizializzare e riempire un'istogramma}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{Inserire dati da file}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{Metodi utili istogrammi}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Operazioni fra istogrammi}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Grafici}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Costruttore di TGraph}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Costruttore di TGraphErrors}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{Metodi per grafici}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Variabili globali}{}% 12
-\BOOKMARK [1][-]{section.5}{Funzioni di ROOT}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Inizializzazione e funzioni utili}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{Fitting}{section.5}% 15
-\BOOKMARK [1][-]{section.6}{Legenda}{}% 16
-\BOOKMARK [1][-]{section.7}{Disegnare oggetti}{}% 17
-\BOOKMARK [2][-]{subsection.7.1}{Canvas}{section.7}% 18
-\BOOKMARK [2][-]{subsection.7.2}{Draw\(\)}{section.7}% 19
-\BOOKMARK [1][-]{section.8}{Generazione di Montecarlo}{}% 20
-\BOOKMARK [1][-]{appendix.Alph1}{Opzioni di Draw}{}% 21
-\BOOKMARK [1][-]{appendix.Alph2}{Esempi}{}% 22
+\BOOKMARK [1][-]{section.2}{ROOT Files}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Decoupling objects}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Istogrammi}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Inizializzare e riempire un'istogramma}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Inserire dati da file}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Metodi utili istogrammi}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Operazioni fra istogrammi}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Grafici}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Costruttore di TGraph}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Costruttore di TGraphErrors}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Metodi per grafici}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Variabili globali}{}% 14
+\BOOKMARK [1][-]{section.6}{Funzioni di ROOT}{}% 15
+\BOOKMARK [2][-]{subsection.6.1}{Inizializzazione e funzioni utili}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.2}{Fitting}{section.6}% 17
+\BOOKMARK [1][-]{section.7}{Classi user-defined in ROOT}{}% 18
+\BOOKMARK [1][-]{section.8}{Legenda}{}% 19
+\BOOKMARK [1][-]{section.9}{Disegnare oggetti}{}% 20
+\BOOKMARK [2][-]{subsection.9.1}{Canvas}{section.9}% 21
+\BOOKMARK [2][-]{subsection.9.2}{Draw\(\)}{section.9}% 22
+\BOOKMARK [1][-]{section.10}{Generazione di Montecarlo}{}% 23
+\BOOKMARK [2][-]{subsection.10.1}{Generazione secondo pdf}{section.10}% 24
+\BOOKMARK [2][-]{subsection.10.2}{Simulare effetto smearing}{section.10}% 25
+\BOOKMARK [2][-]{subsection.10.3}{Simulare efficienza}{section.10}% 26
+\BOOKMARK [1][-]{section.11}{Benchmark}{}% 27
+\BOOKMARK [1][-]{section.12}{Liste}{}% 28
+\BOOKMARK [1][-]{section.13}{Alberi}{}% 29
+\BOOKMARK [2][-]{subsection.13.1}{Creare e riempire un Tree}{section.13}% 30
+\BOOKMARK [2][-]{subsection.13.2}{Analisi dati}{section.13}% 31
