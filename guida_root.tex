@@ -26,7 +26,7 @@ dottedtoc % Dotted lines leading to the page numbers in the table of contents
 	\newpage
 Per istogrammi saranno convenzionalemnte usati i nomi h, h0, h1,...; per le funzioni f, f0, f1, f2,...; per le funzioni di fit fit, fit1,...; per i grafici g, g1, g2, ...; l per le legende e c per le canvas
 \section{Introduzione ed informazioni generali utili}
-ROOT è un linguaggio ad oggetti sviluppato dal CERN basato su C++ utile per l'analisi ed elaborazione di grandi moli di dati. Ogni istogramma, grafico, funzione (...) che creiamo è un oggetto con delle sue opzioni e funzioni (funzioni membro). Una proprietà fondamentale è l'ereditarietà: tutte le classi sono figlie di una classe di base (TObject) da cui discendono le altre; ogni classe figlia eredita le funzioni membro di quelle precedenti. Il tipo degli oggetti comincia sempre con la lettera T, seguita da altre lettere che specificano le caratteristiche dell'oggetto. Di seguito riporto alcune informazioni di base in ordine casuale:
+ROOT è un pacchetto software orientato ad oggetti sviluppato dal CERN basato su C++ utile per l'analisi ed elaborazione di grandi moli di dati. Ogni istogramma, grafico, funzione (...) che creiamo è un oggetto con delle sue opzioni e funzioni (funzioni membro). Una proprietà fondamentale è l'ereditarietà: tutte le classi sono figlie di una classe di base (TObject) da cui discendono le altre; ogni classe figlia eredita le funzioni membro di quelle precedenti. Il tipo degli oggetti comincia sempre con la lettera T, seguita da altre lettere che specificano le caratteristiche dell'oggetto. Di seguito riporto alcune informazioni di base in ordine casuale:
 \begin{itemize}
 \item I tipi base di ROOT hanno nomi leggermente diversi da quelli di c++: \(Int\_t\), \(Float\_t\), \(Double\_t\), TString...\\
 \item Per stampare a schermo basta usare i comandi di C++. Ad esempio:\\\\
@@ -168,7 +168,7 @@ Di seguito sono riportati i metodi più importanti per gli istogrammi
 	prende il centro del bin
 	\item h -> GetIntegral();\\
 	restituisce un'array dei conteggi cumulativi 
-	\item h -> Integral();\\
+	\item h -> Integral(bini, binf);\\
 	calcola l'integrale nel range
 \end{itemize}
 \subsection{Operazioni fra istogrammi}
@@ -182,11 +182,12 @@ Si possono usare metodi dedicati della classe per effettuare operazioni tra ogge
 	TH1F *hsum =new TH1F(*h1);\\
 	hsum -> Add(h1,h2,1,1);\\\\
 	Per la sottrazione si usa la stessa sintassi dell'addizione ma con un "-1" al posto del secondo "1".\\
-	Infine, per avere incertezze corrette sugli istogrammi risultato, è necessario usare il metodo Sumw2() prima di effettuare la somma prima di riempire l'istogramma:\\\\
+	Infine, per avere incertezze corrette sugli istogrammi risultato, è necessario usare il metodo Sumw2() prima di effettuare la somma o la divisione prima di riempire l'istogramma:\\\\
 	h1 -> Sumw2();\\
 	h2-> Sumw2();\\
 \end{enumerate}
-
+Per calcolare gli errori binomiali in un operazione fra istogrammi, bisogna aggiungere l'opzione "B" nella parentesi dell'operazione\\\\
+hdiv -> Divide(h1,h2,1,1, "B");
 \section{Grafici}
 Un grafico rappresenta una serie di N coppie di due variabili (x, y). Esistono due tipi di grafici: quello semplice TGraph e quello in cui è possibile includere anche gli errori nel grafico TGraphErrors. 
 \subsection{Costruttore di TGraph}
@@ -326,7 +327,8 @@ Per effettuare un fit di dati in un istogramma rispetto ad una funzione definita
 \end{enumerate}
 Per effettuare un fit a partire da una funzione built-in ROOT basta scrivere:\\\\
 nome\_isto -> Fit(funzione);\\\\
-dove al posto di funzione si può mettere il nome di una funzione built-in ROOT (linear, poln, gaus, expo, gausn...)
+dove al posto di funzione si può mettere il nome di una funzione built-in ROOT (linear, poln, gaus, expo, gausn...). Per evitare di stampare informazioni indesiderate si può usare l'opzione "Q".\\\\
+nome\_isto -> Fit(funzione, "Q");\\\\
 Di seguito altre utili funzioni membro delle funzioni fit
 \begin{itemize}
 	\item fit -> GetChisquare(); 
@@ -340,7 +342,12 @@ Di seguito altre utili funzioni membro delle funzioni fit
 \end{itemize}
 \'{E} possibile fittare anche grafici grazie all'overloading della funzione Fit:\\\\
 g -> Fit("nome\_funzione");\\
- \subsubsection*{Fit in sotto-range}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=1.\linewidth]{_..._lab-root-2_ex7.C}
+	\caption{Esempio di fit}
+\end{figure}
+  \subsubsection*{Fit in sotto-range}
  Spesso capita che si voglia fittare solo una parte di grafico o istogramma. Esistono vari modi per farlo:
  \begin{itemize}
  	\item Si dichiara un range di validità (dominio) nel costruttore della funzione e poi si fitta usando l'opzione "R":\\\\
@@ -373,11 +380,11 @@ Se si specifica il range è possibile fittare utilizzando più funzioni per i di
 	h -> Fit(total, "R")\\
 	\item Estrarre risultati finali dai metodi delle funzioni fit già visti.
 \end{enumerate}
+
 \section{Classi user-defined in ROOT}
 In ROOT vi sono classi predefinite come quella delle funzioni o degli istogrammi, e se volessimo usare dentro ROOT una classe user-defined, che eventualmente faccia uso di altre classi ROOT? Possiamo semplicemente implementaere una classe esternamente a ROOT (con la convenzione classica di creare un file di intestazione .h ed uno di implementazione .cpp), in questo caso dovremo includere tutti gli oggetti di ROOT necessari (per includere una classe user-defined si deve usare una macro compilata). Per compilare la classe si usa la sintassi:\\\\
 gROOT->LoadMacro(“MyClass.cxx+”)\\\\
-Ora possiamo usare la classe da noi definita, in altre macros (queste dovranno essere compilate dopo la claasse user-defined).\\
-Per usare oggetti della nostra classe anche in file ROOT (e non solo in macros compilate) bisogna modificare il file .h della classe user-defined rendendola classe figlia (ereditarietà pubblica) di TObject, bisogna inoltre aggiungere la chiamata alla macro ClassDef(ClassName,N); bisogna modificare il file .cpp la chiamata a ClassImp(ClassName).
+Per usare oggetti della nostra classe in un file ROOT (e non solo in macros compilate) bisogna modificare il file .h della classe user-defined rendendola classe figlia (ereditarietà pubblica) di TObject, bisogna inoltre aggiungere la chiamata alla macro ClassDef(ClassName,N); bisogna modificare il file .cpp la chiamata a ClassImp(ClassName).
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.\linewidth]{classi-root-1}
@@ -433,11 +440,6 @@ Di seguito sono rimportate le principali opzioni di Draw
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=1.\linewidth]{"Screenshot 2022-06-04 222020"}
-\end{figure}
-\FloatBarrier
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1.\linewidth]{"Screenshot 2022-06-04 222115"}
 \end{figure}
 \FloatBarrier
 \newpage 
@@ -582,7 +584,7 @@ TTree *t = new TTree("t, "titolo");\\\\
 Per creare i branches si usa il metodo Branch\\\\
 double x;
 t -> ("x", \&x, "x/F");\\
-Per riempire il tree si usail metodo Fill che riempie automaticamente il branch corretto. \\\\
+Per riempire il tree si usail metodo Fill che riempie automaticamente il branch corretto. F è il tipo della variabile (ad esempio F sta per Float, D per Double). \\\\
 t->Fill();\\\\
 Infine si scrive il tree sul file e si chiude il file.\\\\
 t->Write()\\

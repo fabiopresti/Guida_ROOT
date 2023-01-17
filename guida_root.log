@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.10)  14 JAN 2023 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.10)  16 JAN 2023 22:17
 entering extended mode
 **./guida_root.tex
 (guida_root.tex
@@ -1498,603 +1498,613 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--326
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--331
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 327--332
 
  []
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 346--349
+<_..._lab-root-2_ex7.C.pdf, id=210, 614.295pt x 794.97pt>
+File: _..._lab-root-2_ex7.C.pdf Graphic file (type pdf)
+<use _..._lab-root-2_ex7.C.pdf>
+Package pdftex.def Info: _..._lab-root-2_ex7.C.pdf  used on input line 346.
+(pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--349
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 346--349
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--351
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--360
+[11] [12 <./_..._lab-root-2_ex7.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--360
+Underfull \hbox (badness 10000) in paragraph at lines 352--355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--364
+Underfull \hbox (badness 10000) in paragraph at lines 360--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--370
+Underfull \hbox (badness 10000) in paragraph at lines 366--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--370
+Underfull \hbox (badness 10000) in paragraph at lines 366--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 366--370
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--372
+Underfull \hbox (badness 10000) in paragraph at lines 370--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 370--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--374
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
-<classi-root-1.png, id=218, 509.5035pt x 283.0575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+
+ []
+
+<classi-root-1.png, id=244, 509.5035pt x 283.0575pt>
 File: classi-root-1.png Graphic file (type png)
 <use classi-root-1.png>
-Package pdftex.def Info: classi-root-1.png  used on input line 383.
+Package pdftex.def Info: classi-root-1.png  used on input line 389.
 (pdftex.def)             Requested size: 438.17227pt x 243.429pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--387
+Underfull \hbox (badness 10000) in paragraph at lines 384--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--387
+Underfull \hbox (badness 10000) in paragraph at lines 384--393
 
  []
 
-[12]
-<classi-root-2.png, id=230, 534.19576pt x 260.172pt>
+[13]
+<classi-root-2.png, id=257, 534.19576pt x 260.172pt>
 File: classi-root-2.png Graphic file (type png)
 <use classi-root-2.png>
-Package pdftex.def Info: classi-root-2.png  used on input line 390.
+Package pdftex.def Info: classi-root-2.png  used on input line 396.
 (pdftex.def)             Requested size: 438.17227pt x 213.40591pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./classi-root-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 395--398
+[14 <./classi-root-1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--398
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--405
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 399--405
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--420
+Underfull \hbox (badness 10000) in paragraph at lines 413--426
 
  []
 
-[14 <./classi-root-2.png>]
+[15 <./classi-root-2.png>]
 
-LaTeX Warning: Reference `sec:Draw' on page 15 undefined on input line 424.
+LaTeX Warning: Reference `sec:Draw' on page 16 undefined on input line 430.
 
-<Screenshot 2022-06-04 221503.png, id=244, 641.9985pt x 362.5545pt>
+<Screenshot 2022-06-04 221503.png, id=270, 641.9985pt x 362.5545pt>
 File: Screenshot 2022-06-04 221503.png Graphic file (type png)
 <use Screenshot 2022-06-04 221503.png>
 Package pdftex.def Info: Screenshot 2022-06-04 221503.png  used on input line 4
-30.
+36.
 (pdftex.def)             Requested size: 438.17227pt x 247.45766pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--432
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--432
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--432
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--432
+Underfull \hbox (badness 10000) in paragraph at lines 427--438
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15]
-<Screenshot 2022-06-04 222020.png, id=249, 865.43324pt x 464.937pt>
+[16]
+<Screenshot 2022-06-04 222020.png, id=275, 865.43324pt x 464.937pt>
 File: Screenshot 2022-06-04 222020.png Graphic file (type png)
 <use Screenshot 2022-06-04 222020.png>
 Package pdftex.def Info: Screenshot 2022-06-04 222020.png  used on input line 4
-35.
+41.
 (pdftex.def)             Requested size: 438.17227pt x 235.40498pt.
-<Screenshot 2022-06-04 222115.png, id=250, 862.422pt x 461.92575pt>
+<Screenshot 2022-06-04 222115.png, id=276, 862.422pt x 461.92575pt>
 File: Screenshot 2022-06-04 222115.png Graphic file (type png)
 <use Screenshot 2022-06-04 222115.png>
 Package pdftex.def Info: Screenshot 2022-06-04 222115.png  used on input line 4
-40.
+46.
 (pdftex.def)             Requested size: 438.17227pt x 234.69092pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./Screenshot 2022-06-04 221503.png> <./Screenshot 2022-06-04 222020.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
+[17 <./Screenshot 2022-06-04 221503.png> <./Screenshot 2022-06-04 222020.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--452
+Underfull \hbox (badness 10000) in paragraph at lines 454--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--452
+Underfull \hbox (badness 10000) in paragraph at lines 454--458
 
  []
 
-[17 <./Screenshot 2022-06-04 222115.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 465--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--470
+[18 <./Screenshot 2022-06-04 222115.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 471--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--470
+Underfull \hbox (badness 10000) in paragraph at lines 471--476
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--470
+Underfull \hbox (badness 10000) in paragraph at lines 471--476
 
  []
 
-[18]
-<_..._lab-root-2_ex2.C.pdf, id=269, 614.295pt x 794.97pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--476
+
+ []
+
+[19]
+<_..._lab-root-2_ex2.C.pdf, id=296, 614.295pt x 794.97pt>
 File: _..._lab-root-2_ex2.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_ex2.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_ex2.C.pdf  used on input line 473.
+Package pdftex.def Info: _..._lab-root-2_ex2.C.pdf  used on input line 479.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [19 <./_..._lab-root-2_ex2.C.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+ [20 <./_..._lab-root-2_ex2.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--488
+Underfull \hbox (badness 10000) in paragraph at lines 485--494
 
  []
 
-[20]
-<_..._lab-root-2_resolution.C.pdf, id=300, 614.295pt x 794.97pt>
+[21]
+<_..._lab-root-2_resolution.C.pdf, id=326, 614.295pt x 794.97pt>
 File: _..._lab-root-2_resolution.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_resolution.C.pdf>
 Package pdftex.def Info: _..._lab-root-2_resolution.C.pdf  used on input line 4
-91.
+97.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [21 <./_..._lab-root-2_resolution.C.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 501--503
+ [22 <./_..._lab-root-2_resolution.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--503
+Underfull \hbox (badness 10000) in paragraph at lines 507--509
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--510
+Underfull \hbox (badness 10000) in paragraph at lines 511--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--510
+Underfull \hbox (badness 10000) in paragraph at lines 511--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--517
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--517
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--517
+Underfull \hbox (badness 10000) in paragraph at lines 516--523
 
  []
 
-[22]
-<_..._lab-root-2_ex1.C.pdf, id=330, 614.295pt x 794.97pt>
+[23]
+<_..._lab-root-2_ex1.C.pdf, id=356, 614.295pt x 794.97pt>
 File: _..._lab-root-2_ex1.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_ex1.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_ex1.C.pdf  used on input line 523.
+Package pdftex.def Info: _..._lab-root-2_ex1.C.pdf  used on input line 529.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [23 <./_..._lab-root-2_ex1.C.pdf>]
-<_..._lab-root-2_efficiency.C.pdf, id=356, 614.295pt x 794.97pt>
+ [24 <./_..._lab-root-2_ex1.C.pdf>]
+<_..._lab-root-2_efficiency.C.pdf, id=382, 614.295pt x 794.97pt>
 File: _..._lab-root-2_efficiency.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_efficiency.C.pdf>
 Package pdftex.def Info: _..._lab-root-2_efficiency.C.pdf  used on input line 5
-30.
+36.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [24 <./_..._lab-root-2_efficiency.C.pdf>]
-<_..._lab-root-2_ex4.C.pdf, id=382, 614.295pt x 794.97pt>
+ [25 <./_..._lab-root-2_efficiency.C.pdf>]
+<_..._lab-root-2_ex4.C.pdf, id=409, 614.295pt x 794.97pt>
 File: _..._lab-root-2_ex4.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_ex4.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_ex4.C.pdf  used on input line 537.
+Package pdftex.def Info: _..._lab-root-2_ex4.C.pdf  used on input line 543.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [25 <./_..._lab-root-2_ex4.C.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 542--546
+ [26 <./_..._lab-root-2_ex4.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 548--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--546
+Underfull \hbox (badness 10000) in paragraph at lines 548--552
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
+Underfull \hbox (badness 10000) in paragraph at lines 553--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--551
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 552--554
+Underfull \hbox (badness 10000) in paragraph at lines 558--560
 
  []
 
-[26]
-<_..._lab-root-2_ex5.C.pdf, id=413, 614.295pt x 794.97pt>
+[27]
+<_..._lab-root-2_ex5.C.pdf, id=439, 614.295pt x 794.97pt>
 File: _..._lab-root-2_ex5.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_ex5.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_ex5.C.pdf  used on input line 558.
+Package pdftex.def Info: _..._lab-root-2_ex5.C.pdf  used on input line 564.
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [27 <./_..._lab-root-2_ex5.C.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+ [28 <./_..._lab-root-2_ex5.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--575
+Underfull \hbox (badness 10000) in paragraph at lines 569--581
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--590
+Underfull \hbox (badness 10000) in paragraph at lines 584--596
 
  []
 
-[28] [29]
-<_..._lab-root-2_makeTree.C.pdf, id=447, 614.295pt x 794.97pt>
+[29] [30]
+<_..._lab-root-2_makeTree.C.pdf, id=473, 614.295pt x 794.97pt>
 File: _..._lab-root-2_makeTree.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_makeTree.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_makeTree.C.pdf  used on input line 593
+Package pdftex.def Info: _..._lab-root-2_makeTree.C.pdf  used on input line 599
 .
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [30 <./_..._lab-root-2_makeTree.C.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+ [31 <./_..._lab-root-2_makeTree.C.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--614
+Underfull \hbox (badness 10000) in paragraph at lines 605--620
 
  []
 
-[31]
-<_..._lab-root-2_readTree.C.pdf, id=478, 614.295pt x 794.97pt>
+[32]
+<_..._lab-root-2_readTree.C.pdf, id=504, 614.295pt x 794.97pt>
 File: _..._lab-root-2_readTree.C.pdf Graphic file (type pdf)
 <use _..._lab-root-2_readTree.C.pdf>
-Package pdftex.def Info: _..._lab-root-2_readTree.C.pdf  used on input line 617
+Package pdftex.def Info: _..._lab-root-2_readTree.C.pdf  used on input line 623
 .
 (pdftex.def)             Requested size: 438.17227pt x 567.0528pt.
- [32 <./_..._lab-root-2_readTree.C.pdf>] (guida_root.aux)
+ [33 <./_..._lab-root-2_readTree.C.pdf>] (guida_root.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2102,11 +2112,11 @@ Package rerunfilecheck Info: File `guida_root.out' has not changed.
 (rerunfilecheck)             Checksum: F68A0810414A36C2C75D15968DB3366F;1940.
  ) 
 Here is how much of TeX's memory you used:
- 15599 strings out of 479618
- 273779 string characters out of 2865026
- 678611 words of memory out of 3000000
- 32010 multiletter control sequences out of 15000+200000
- 479163 words of font info for 341 fonts, out of 3000000 for 9000
+ 15614 strings out of 479618
+ 274069 string characters out of 2865026
+ 678616 words of memory out of 3000000
+ 32017 multiletter control sequences out of 15000+200000
+ 479444 words of font info for 345 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  126i,22n,130p,1009b,702s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Fabio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
@@ -2118,9 +2128,9 @@ onts/type1/public/fpl/fplrc8a.pfb><C:/Users/Fabio/AppData/Local/Programs/MiKTeX
 /fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Fabio/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Fabio/AppData/Local/Programs/
 MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on guida_root.pdf (32 pages, 842289 bytes).
+Output written on guida_root.pdf (33 pages, 891253 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 89914 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 576 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 89919 words of extra memory for PDF output out of 106986 (max. 10000000)
 
